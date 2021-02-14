@@ -8,6 +8,17 @@
     <meta name="viewpoint" content="width=device-width" , initial-scale="1.0">
     <title>2021년 신년운세</title>
     <style>
+
+        * {
+            font-family: 'Jua', sans-serif;
+        }
+
+        body {
+            background-image: url('https://new-year.spartacodingclub.kr/images/pattern.png');
+            background-position: 600px 100px;
+            background-color: ivory;
+            background-repeat: no-repeat;
+        }
         .mytitle {
             color: darkred;
             text-align: center;
@@ -20,17 +31,7 @@
             margin-bottom: 0;
         }
 
-        body {
-            background-image: url('https://new-year.spartacodingclub.kr/images/pattern.png');
-            background-position: 600px 100px;
-            background-color: ivory;
-            background-repeat: no-repeat;
-        }
-
-        * {
-            font-family: 'Jua', sans-serif;
-        }
-
+     
         .rtans>a {
 
             width: 150px;
@@ -44,109 +45,82 @@
             background-color: white;
             display: block;
 
-            margin:10px;
+            margin: 10px;
 
             background-size: cover;
             background-position: center;
-            
+
             line-height: 50px;
+
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            text-decoration: none;
+
+        }
+
+        .rtans>a:hover {
+
+            background-color: darkred;
 
         }
 
         .rtan1 {
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            text-decoration: none;
             background-image: url('https://new-year.spartacodingclub.kr/images/yearS1.png');
         }
 
         .rtan2 {
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            text-decoration: none;
+
             background-image: url('https://new-year.spartacodingclub.kr/images/yearS2.png');
         }
 
         .rtan3 {
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            text-decoration: none;
+
             background-image: url('https://new-year.spartacodingclub.kr/images/yearS3.png');
         }
 
         .rtan4 {
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            text-decoration: none;
+
             background-image: url('https://new-year.spartacodingclub.kr/images/yearS4.png');
         }
 
         .rtan5 {
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            text-decoration: none;
+
             background-image: url('https://new-year.spartacodingclub.kr/images/yearS5.png');
         }
 
         .rtan6 {
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            text-decoration: none;
+
             background-image: url('https://new-year.spartacodingclub.kr/images/yearS6.png');
         }
 
         .rtan7 {
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            text-decoration: none;
+
             background-image: url('https://new-year.spartacodingclub.kr/images/yearS7.png');
         }
 
         .rtan8 {
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            text-decoration: none;
+
             background-image: url('https://new-year.spartacodingclub.kr/images/yearS8.png');
         }
 
         .rtan9 {
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            text-decoration: none;
+
             background-image: url('https://new-year.spartacodingclub.kr/images/yearS9.png');
         }
 
         .rtan10 {
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            
-            text-decoration: none;
+
             background-image: url('https://new-year.spartacodingclub.kr/images/yearS10.png');
         }
 
         .rtan11 {
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            text-decoration: none;
+
             background-image: url('https://new-year.spartacodingclub.kr/images/yearS11.png');
         }
 
         .rtan12 {
-            color: white;
-            font-size: 24px;
-            text-align: center;
-            text-decoration: none;
+
             background-image: url('https://new-year.spartacodingclub.kr/images/yearS12.png');
         }
 
@@ -159,10 +133,30 @@
             margin: auto;
         }
 
-        .rtans>a:hover {
-            
-            background-color: darkred;
-            
+    
+
+        @media screen and (max-width: 780px) {
+
+            body {
+                background-position: 70px -70px;
+                background-size: 500px;
+            }
+
+            .rtans {
+                width: 100%;
+                flex-wrap: wrap;
+            }
+
+            .mytitle {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .rtans>a {
+                color: darkred;
+            }
+
+
         }
     </style>
 </head>
